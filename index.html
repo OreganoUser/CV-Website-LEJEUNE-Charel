@@ -1,0 +1,352 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>LEJEUNE Charel – Portfolio</title>
+    <link rel="stylesheet" href="CSS/style.css" />
+    <script defer src="JS/script.js"></script>
+  </head>
+  <body>
+    <a class="skip-link" href="#about">Skip to content</a>
+
+    <!-- Top navigation (sticky) -->
+    <nav class="up" aria-label="Main">
+      <div class="home">
+        <a href="#top" aria-label="Home">
+          <img src="assets/arrow-up.svg" alt="Home" class="home-pic" />
+        </a>
+      </div>
+      <div class="nav-bar navigation">
+        <a href="#about">About</a>
+        <a href="#education">Education</a>
+        <a href="#projects">Projects</a>
+        <a href="#experience">Experience</a>
+        <a href="#skills">Skills</a>
+        <a href="#contact">Contact</a>
+      </div>
+    </nav>
+
+    <!-- Hero / Header -->
+    <header id="top" class="hero section section--dark" role="banner">
+      <div class="container">
+        <div class="intro">
+          <!-- <img src="assets/duck.jpeg" class="duck-pic reveal" alt="Hero image" /> -->
+          <h1 class="site-title reveal">LEJEUNE Charel</h1>
+          <p class="tagline reveal">BTS IN</p>
+        </div>
+      </div>
+    </header>
+
+    <main id="content" role="main">
+      <!-- About -->
+      <section id="about" class="section section--light" aria-labelledby="about-title">
+        <div class="section-inner">
+          <header class="section-header">
+            <img src="assets/beer-outline.svg" alt="About icon" class="section-icon" />
+            <h2 id="about-title" class="section-title">About me</h2>
+          </header>
+          <div class="about-grid">
+            <div class="about-text reveal">
+              <p>I am a highly motivated and engaged student with a strong passion for learning and growth. 
+                I take initiative in every project I join, bringing creativity, focus, and determination to achieve excellent results. 
+                My curiosity drives me to constantly expand my skills, while my collaborative mindset helps me thrive in team environments. 
+                I am eager to apply my knowledge, adapt quickly to new challenges, and contribute positively wherever I go. 
+                <br>I love penguins.
+              </p>
+              <ul class="list">
+                <li>Software Development</li>
+                <li>Cybersecurity</li>
+                <li>Networks</li>
+                <li>Databases</li>
+              </ul>
+              <p>
+                <a class="link" href="assets/" download>Download CV (PDF)</a>
+              </p>
+            </div>
+            <figure class="about-media reveal">
+              <img src="assets/miniCharel.jpg" alt="Charel Image" />
+              <figcaption>Mini Charel</figcaption>
+            </figure>
+          </div>
+        </div>
+      </section>
+
+      <!-- Education (table) -->
+      <section id="education" class="section section--dark" aria-labelledby="education-title">
+        <div class="section-inner">
+          <header class="section-header">
+            <img src="assets/graduation_cap.svg" alt="Education icon" class="section-icon" />
+            <h2 id="education-title" class="section-title">Education</h2>
+          </header>
+          <div class="table-wrap reveal">
+            <table class="table">
+              <thead>
+                <tr>
+                  <th>Institution</th>
+                  <th>Type</th>
+                  <th>Years</th>
+                  <th>Degree</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td>Lycée Bel-Val</td>
+                  <td>7G - 5G</td>
+                  <td>2018–2021</td>
+                  <td>/</td>
+                </tr>
+                <tr>
+                  <td>Lycée des Arts et Métiers</td>
+                  <td>4GIG - 3GIG</td>
+                  <td>2021–2023</td>
+                  <td>/</td>
+                </tr>
+                <tr>
+                  <td>Lycée des Arts et Métiers</td>
+                  <td>2GIN - 1GIN</td>
+                  <td>2023–2025</td>
+                  <td>Diplôme de fin d'études secondaires</td>
+                </tr>
+                <tr>
+                  <td>Lycée des Arts et Métiers</td>
+                  <td>B1IN</td>
+                  <td>2025–Now</td>
+                  <td>/</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        </div>
+      </section>
+
+      <!-- Projects (cards) -->
+      <section id="projects" class="section section--light" aria-labelledby="projects-title">
+        <div class="section-inner">
+          <header class="section-header">
+            <img src="assets/albums.svg" alt="Projects icon" class="section-icon" />
+            <h2 id="projects-title" class="section-title">Projects</h2>
+          </header>
+
+          <div class="cards">
+            <!-- Card 1 -->
+            <article class="card reveal" aria-labelledby="proj1-title">
+              <div class="card-header">
+                <img src="assets/cansat.jpg" alt="App icon" class="card-icon" />
+                <h3 id="proj1-title" class="card-title">CanSat 2025</h3>
+              </div>
+              <p class="card-text">Building a satelite the size of a drinking can</p>
+              <ul class="card-list">
+                <li>I worked in a team of 6 people to create a mini satelite.</li>
+                <li>I was responsible for the display of the received information on a ground station application.
+                  <br>It displayed live data received with a Raspberry PI Pico II and a anttenna.
+                </li>
+              </ul>
+              <div class="card-actions">
+                <a class="link" href="https://esero.ie/projects/cansat/" target="_blank" rel="noreferrer">Esero CanSat Info</a>
+                <a class="link" href="#" target="_blank" rel="noreferrer">GitHub</a>
+              </div>
+            </article>
+
+            <!-- Card 2 -->
+            <article class="card reveal" aria-labelledby="proj2-title">
+              <div class="card-header">
+                <img src="assets/luxSkills.png" alt="Hardware icon" class="card-icon" />
+                <h3 id="proj2-title" class="card-title">LuxSkills 2024</h3>
+              </div>
+              <p class="card-text">Local competition in coding. (HTML, CSS, PHP, JS)</p>
+              <ul class="card-list">
+                <li>I competed in different coding categories against others to make Front- and Backend for a websites, use API's and databases.</li>
+              </ul>
+              <div class="card-actions">
+                <a class="link" href="https://worldskills2025.com/" target="_blank" rel="noreferrer">WorldSkills</a>
+                <a class="link" href="#" target="_blank" rel="noreferrer">GitHub</a>
+              </div>
+            </article>
+
+            <!-- Card 3
+            <article class="card reveal" aria-labelledby="proj3-title">
+              <div class="card-header">
+                <img src="assets/icons/terminal.svg" alt="CLI icon" class="card-icon" />
+                <h3 id="proj3-title" class="card-title">Project Title Three</h3>
+              </div>
+              <p class="card-text">Short description. Tech stack. What it does.</p>
+              <ul class="card-list">
+                <li>Feature A</li>
+                <li>Feature B</li>
+              </ul>
+              <div class="card-actions">
+                <a class="link" href="#" target="_blank" rel="noreferrer">Live</a>
+                <a class="link" href="#" target="_blank" rel="noreferrer">GitHub</a>
+              </div>
+            </article>
+          -->
+          </div>
+        </div>
+      </section>
+
+      <!-- Experience -->
+      <section id="experience" class="section section--dark" aria-labelledby="experience-title">
+        <div class="section-inner">
+          <header class="section-header">
+            <img src="assets/5head.svg" alt="Experience icon" class="section-icon" />
+            <h2 id="experience-title" class="section-title">Experience</h2>
+          </header>
+
+          <ol class="timeline">
+            <li class="timeline-item reveal">
+              <div class="timeline-dot" aria-hidden="true"></div>
+              <div class="timeline-content">
+                <h3>Assistant @ Trolux</h3>
+                <p class="muted">2021 (1 Month) • Dudelange</p>
+                <p>Entrepreneurship / Engineering</p>
+              </div>
+            </li>
+            <li class="timeline-item reveal">
+              <div class="timeline-dot" aria-hidden="true"></div>
+              <div class="timeline-content">
+                <h3>Advisor @ CFL</h3>
+                <p class="muted">2021-2023 • Luxembourg | Esch-sur-Alzette | Mersch</p>
+                <p>Give out information about substitution buses which replaced the trains.</p>
+              </div>
+            </li>
+            <li class="timeline-item reveal">
+              <div class="timeline-dot" aria-hidden="true"></div>
+              <div class="timeline-content">
+                <h3>Intern @ CFL</h3>
+                <p class="muted">2024 • Luxembourg</p>
+                <p>Management of sensitive internal data and spreadsheet analysis.</p>
+              </div>
+            </li>
+          </ol>
+        </div>
+      </section>
+
+      <!-- Skills -->
+      <section id="skills" class="section section--light" aria-labelledby="skills-title">
+        <div class="section-inner">
+          <header class="section-header">
+            <img src="assets/people.svg" alt="Skills icon" class="section-icon" />
+            <h2 id="skills-title" class="section-title">Skills</h2>
+          </header>
+
+          <div class="skills-wrap reveal">
+            <ul class="tags">
+              <li>C • C++ • C#</li>
+              <li>Java</li>
+              <li>JavaScript</li>
+              <li>CSS</li>
+              <li>HTML</li>
+              <li>PHP</li>
+              <li>Scratch </li>
+              <li>MySQL</li>
+              <li>Linux</li>
+              <li>Windows</li>
+              <li>MacOS</li>
+            </ul>
+          </div>
+
+          <div class="columns reveal">
+            <div>
+              <h3>Knowledge</h3>
+              <ul class="list">
+                <li>Data structures & algorithms</li>
+                <li>Computer architecture</li>
+                <li>Systems programming</li>
+                <li>Networking</li>
+              </ul>
+            </div>
+            <div>
+              <h3>Tools</h3>
+              <ul class="list">
+                <li>Docker</li>
+                <li>Wireshark</li>
+                <li>VirtualBox</li>
+                <li>GitHub Actions</li>
+                <li>GNU Toolchain</li>
+              </ul>
+            </div>
+            <div>
+              <h3>Languages</h3>
+              <ul class="list">
+                <li>Luxembourgish (C2)</li>
+                <li>French (C1)</li>
+                <li>German (C1)</li>
+                <li>English (B2)</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Contact (email form) -->
+      <section id="contact" class="section section--dark" aria-labelledby="contact-title">
+        <div class="section-inner">
+          <header class="section-header">
+            <img src="assets/mail.svg" alt="Mail icon" class="section-icon" />
+            <h2 id="contact-title" class="section-title">Contact</h2>
+          </header>
+
+          <form id="contact-form" class="contact-form" novalidate>
+            <div class="field">
+              <label for="name">Name</label>
+              <input id="name" name="name" type="text" required placeholder="Name" />
+            </div>
+            <div class="field">
+              <label for="email">Email</label>
+              <input id="email" name="email" type="email" required placeholder="gimme.the.mail@example.com" />
+            </div>
+            <div class="field">
+              <label for="subject">Subject</label>
+              <input id="subject" name="subject" type="text" required placeholder="Why are you bothering me!" />
+            </div>
+            <div class="field">
+              <label for="message">Message</label>
+              <textarea id="message" name="message" rows="6" required placeholder="What the fuck do you want ??"></textarea>
+            </div>
+            <div class="actions">
+              <button type="submit" class="btn">Send</button>
+            </div>
+          </form>
+        </div>
+      </section>
+    </main>
+
+    <footer id="end" class="site-footer section section--light" role="contentinfo">
+      <div class="section-inner">
+        <p>© 2025 LEJEUNE Charel</p>
+        <nav aria-label="Footer">
+          <ul class="inline-links">
+            <li><a href="#top">Back to top</a></li>
+            <li><a href="http://kiesgen.lu/">Kiesgen</a></li>
+          </ul>
+        </nav>
+      </div>
+    </footer>
+
+    <noscript>
+      <style>.reveal{opacity:1;transform:none}</style>
+      JavaScript is disabled. Animations and form features are limited.
+    </noscript>
+
+    <!-- Global overlays container (MUST be inside <body>) -->
+    <div id="ui-layer" aria-live="polite">
+      <div id="toast" class="toast" hidden>ToastLOL</div>
+
+      <div id="modal" class="modal" hidden role="dialog" aria-modal="true" aria-labelledby="modal-title">
+        <div class="modal__backdrop" data-close></div>
+        <div class="modal__panel">
+          <h2 id="modal-title">Your submission</h2>
+          <p><strong>Name:</strong> <span id="modalName"></span></p>
+          <p><strong>Email:</strong> <span id="modalEmail"></span></p>
+          <p><strong>Subject:</strong> <span id="modalSubject"></span></p>
+          <p><strong>Message:</strong> <span id="modalMessage"></span></p>
+          <div style="display:flex; gap:10px; margin-top:12px">
+            <button type="button" class="btn" id="modal-ok">OK</button>
+            <button type="button" class="btn" data-close>Cancel</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
